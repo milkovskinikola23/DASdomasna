@@ -1,0 +1,17 @@
+WebApp UI
+Visualize Company Data: Displays companies and their stock prices using interactive graphs.
+Stock Price Forecast: Shows next month’s stock price predictions for each company.
+Controllers
+Main Controller: Handles all incoming requests and routes them to the appropriate controllers.
+Authentication Controller: Manages login requests.
+Registration Controller: Handles user registration requests.
+Company Search Controller: Processes requests related to company data retrieval.
+Services
+Registration Service: Implements the business logic for user registration.
+Authentication Service: Manages the business logic for user login.
+Company Search Service: Executes the business logic for retrieving company data.
+Prediction Service (LSTM): Provides next-month stock price predictions for companies using an LSTM model.
+Repositories
+User Repository: Handles database operations for storing and managing user data.
+Company Repository: Manages database interactions for retrieving and updating company information.
+Stock Price Repository: Facilitates the retrieval and updating of historical stock price data in the database.
